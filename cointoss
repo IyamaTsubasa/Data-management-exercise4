@@ -1,1 +1,21 @@
-include<stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+    int n;
+    int h = 0;
+    int t = 0;
+    printf("Tossing a coin...");
+    for(int i=0;i<5;i++){
+        n = rand();
+        printf("Round 1: ");
+        if(n % 2 == 0){
+           printf("Head\n");
+           h++;
+        }else{
+           printf("Tail\n");
+           t++;
+     }
+   }
+  printf("Heads: %d, Tails: %d\n",h,t);
+  return 0;
+}
