@@ -3,7 +3,7 @@
 int main(){
     int n;
     int h = 0;
-    int t = 0;
+    int t = 0; 
     printf("Tossing a coin...\n");
     for(int i=0;i<5;i++){
         n = rand();
